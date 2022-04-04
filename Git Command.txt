@@ -1,0 +1,31 @@
+git init (one time command to initialize the local repository)
+
+git status
+
+git add .
+
+git commit -m "Some Comments"
+===========================================
+
+Push an existing repository from the command line
+
+(One Time Activity)
+git remote add origin https://github.com/Usaxena07/JAVA-FS.git
+
+(One Time Activity)
+git branch -M main
+
+(Everytime have to do it to send from local git to github)
+git push -u origin main
+===============================================
+
+Create a new repository on the command line
+
+
+echo "# JAVA-FS" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Usaxena07/JAVA-FS.git
+git push -u origin main
